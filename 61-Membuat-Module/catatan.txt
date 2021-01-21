@@ -1,0 +1,29 @@
+Membuat Module
+1. Untuk membuat module baru, kita bisa menggunakan perintah :
+go mod init nama-module
+2. Go-Lang akan secara otomatis membuat file go.mod yang berisikan informasi nama module
+dan juga versi Go-Lang yang kita gunakan
+Setelah membuat module dengan perintah diatas, jadi kita tidak perlu lagi menyimpan projek
+kita ke dalam GOPATH (go/src), jadi bebas membuat projeknya dimanapun
+
+Setelah kita telah membuat aplikasi dan diset sebagai go modules, kalau ingin rilis projek
+kita seperti apa cara rilisnya?
+
+Rilis Module
+1. Go-Lang terintegrasi baik dengan Git
+2. Untuk merilis module, kita hanya perlu membuat Tag di Git
+
+Langsung praktik saja, pertama membuat module dan aplikasinya
+membuat projek di github https://github.com/rsyd29/go-say-hello
+dan buat 2 folder dengan nama go-say-hello (module-nya) dan app-say-hello (app yang pakai
+module go-say-hello)
+
+1. pada folder go-say-hello buka folder tersebut melalui text editor, lalu buka terminal
+dan ketikkan
+go mod init github.com/rsyd29/go-say-hello
+lalu ada file baru dengan nama go.mod
+2. setelah itu buat file baru dengan *.go sebagai projek yang kita buat
+3. selanjutnya kita perlu commit folder go-say-hello ke dalam repository go-say-hello lalu push
+4. setelah itu buat tag dengan ketikkan
+git tag v1.0.0 --> dengan menggunakan v untuk membuat tag pada modules di go-lang
+git push origin v1.0.0
