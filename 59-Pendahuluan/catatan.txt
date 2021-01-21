@@ -1,0 +1,12 @@
+Belajar Go-Lang Modules
+
+Sebelum belajar materi ini, sebaiknya pelajari terlebih dahulu Go-Lang dasar berikut linknya
+https://github.com/rsyd29/belajar-golang-dasar.git
+
+Agenda untuk belajar Go-Lang Modules diantaranya
+1. Mengenal Go Modules
+2. Membuat Module
+3. Rilis Module
+4. Menambah Dependency
+5. Upgrade Module
+6. Upgrade Dependency
