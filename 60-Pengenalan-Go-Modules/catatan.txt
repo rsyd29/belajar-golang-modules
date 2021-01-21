@@ -1,0 +1,19 @@
+Pengenalan Go Modules --> fitur baru di go-lang
+
+Sebelum ada go modules
+1. Saat kita membuat aplikasi, biasanya kita akan menggunakan library atau dependency dari
+project lain.
+2. Sebelum ada go modules, management untuk dependency sangat sulit dilakukan di Go-Lang
+3. Biasanya kita akan meng-copy semua source code library atau dependency lain ke project
+kita, hal ini membuat project kita menjadi bengkak karena penuh dengan library orang lain
+4. Atau biasanya library orang lain akan kita save di GOPATH directory (go/src), namun hal
+ini akan sulit jika ternyata beberapa aplikasi butuh library yang sama dengan versi yang
+berbeda
+
+Go-Modules
+1. Go-Modules ini fitur baru di golang mulai dikenalkan di golang pada versi 1.11 dan 1.12
+(tulisan ini dibuat menggunakan golang versi 1.15.6)
+2. Dengan Go-Modules ini, kita bisa membuat project dengan mudah dan dependency management
+yang sangat mudah (jadi apabila ingin memenej dependency ketika membuat project, cukup
+membuat menggunakan go-modules)
+3.
