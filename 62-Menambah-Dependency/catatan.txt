@@ -1,0 +1,14 @@
+Menambah Dependency, untuk menambahkannya dengan cara
+go get nama-module
+
+buka folder app-say-hello di text editor
+
+dan buat repository di github dengan nama app-say-hello
+go mod init github.com/rsyd29/app-say-hello
+
+selanjutnya buat file baru dengan nama main.go
+dan ketikkan di terminal
+go get github.com/rsyd29/go-say-hello --> berfungsi untuk menambah dependency dari go-say-hello
+
+setelah itu buka go.mod pada module app-say-hello maka terdapat penambahan baris kode
+require github.com/rsyd29/go-say-hello v1.0.0
