@@ -1,0 +1,28 @@
+Setelah upgrade module
+
+sekarang kita akan upgrade dependency yang ada pada aplikasinya, contohnya itu pada
+app-say-hello
+
+jadi pada aplikasinya itu kita ingin memakai module dengan versi yang terbaru
+
+Upgrade Dependency
+1. Untuk upgrade dependency ke versi terbaru, kita bisa mengubah isi go.mod, lalu
+mengubah tag nya menjadi tag baru
+2. Untuk mendownload versi terbaru, gunakan perintah : go get (untuk mendownload
+ulang seluruh library yang belum di download)
+
+buka projek app-say-hello
+kita bisa langsung mengubah versi dari modulenya secara langsung pada file go.mod
+setelah itu ketikkan perintah
+go get
+pada terminal, lalu dia akan mendownload dependency module tersebut yang terbaru
+
+bagaimana kalau kita salah memasukkan versi?
+nanti akan terjadi error
+
+kalau kita coba go get kembali dengan versi terbarunya maka tidak lagi mendownload
+dependency yang terbaru, karena dia sudah dapat file nya di laptop/pc kita
+
+catatan
+ketika melakukan perubahan kalau bisa itu harus merubah juga versinya
+ingat itu best practicenya ada perubahan maka versi juga harus berubah
