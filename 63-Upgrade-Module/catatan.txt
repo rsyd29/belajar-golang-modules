@@ -1,0 +1,19 @@
+Upgrade Module, pada saat kita membuat aplikasi
+
+bagaimana caranya?
+1. Untuk melakukan upgrade module, kita hanya cukup membuat tag baru di Git
+
+buka projek go-say-hello
+sebelumnya sudah release v1.0.0
+sekarang lakukan perubahan terlebih dahulu dari code programnya
+setelah melakukan perubahan kita git add . dan kita commit code tersebut melalui terminal
+git commit -m 'update say hello'
+lalu push code tersebut
+setelah itu tambahkan tag baru dengan perintah
+git tag v1.5.0
+setelah itu push juga tag barunya
+git push origin v1.5.0
+
+setelah itu cek pada github
+
+kalau sudah ada tag baru berarti kita telah release new versi dari go-say-hello

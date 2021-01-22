@@ -18,7 +18,7 @@ membuat projek di github https://github.com/rsyd29/go-say-hello
 dan buat 2 folder dengan nama go-say-hello (module-nya) dan app-say-hello (app yang pakai
 module go-say-hello)
 
-1. pada folder go-say-hello buka folder tersebut melalui text editor, lalu buka terminal
+membuat module1. pada folder go-say-hello buka folder tersebut melalui text editor, lalu buka terminal
 dan ketikkan
 go mod init github.com/rsyd29/go-say-hello
 lalu ada file baru dengan nama go.mod
