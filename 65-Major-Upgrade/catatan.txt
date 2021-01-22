@@ -1,0 +1,34 @@
+Major Upgrade
+1. Major upgrade biasanya terjadi dikarenakan ada perubahan pada isi kode program kita,
+sehingga membuatnya tidak backward compatible
+(code nya rusak, code versi baru sudah berbeda dengan code versi lamanya)
+2. Sebaiknya hal ini sebisa mungkin dihindari
+Jangan sampai melakukan change yang sampai backward compatible
+intinya jangan sampai membuat fitur yang sudah ada dihilangkan
+3. Namun jika tidak bisa dihindari, strategy terbaik adalah merubah nama module
+misal kalau terjadi bug pada fitur yang lama maka harus terpaksa diganti maka ini tidak
+mengapa stratgy terbaiknya jangan pakai nama module yang sama, jadi diganti nama module
+nya, biar orang orang tau bahwa ini adalah major changes
+
+biasanya orang orang melakukan perubahan nama pada module dan versi tagnya naik
+drastis misal dari versi 1.0.0 menjadi 2.0.0
+
+Buka project go-say-hello untuk melakukan major changes, jadi dirusak func SayHello()
+
+biasanya orang golang akan menambahkan versinya pada module yang akan dirubah
+misal
+module github.com/rsyd29/go-say-hello/v2
+
+nama git repository dan modulenya tidak sama itu tidak masalah
+
+jadi kalau orang ingin menambahkan dependency go say hello harus tambahkan v2, jadi
+go get github.com/rsyd29/go-say-hello/v2
+jadi perintah diatas untuk mendapatkan/mencari dan mendownload dependency dengan versi 2 itu fungsi v2
+
+kalau kita hanya mengetikan
+go get github.com/rsyd29/go-say-hello
+tanpa v2 maka dia tetap akan mendownload dengan versi 1
+
+contohnya di https://gofiber.io/
+
+itulah contoh major change di golang menggunakan go module
