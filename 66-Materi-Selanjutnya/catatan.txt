@@ -1,0 +1,18 @@
+Selesah sudah materi golang modules
+yang di dapatkan dari materi ini adalah
+1. Bagaimana cara untuk membuat module
+2. Menambahkan Dependency
+3. Upgrade Module
+4. Upgrade Dependency
+5. Major Upgrade
+
+dan sebagainya
+
+Mulai sekarang ketika ingin membuat projek golang, diusahakan menggunakan go modules
+jangan lagi melakukan manual di dependency GOPATH (go/src) apa lagi masih copas
+library dependency-nya, jangan sampai melakukan itu
+
+Materi Selanjutnya
+1. Go-Lang Unit Test
+2. Go-Lang Concurrency (Go-Routine)
+materi ini wajib dikuasai selanjutnya sebelum membuat website dengan golang yang bagus
